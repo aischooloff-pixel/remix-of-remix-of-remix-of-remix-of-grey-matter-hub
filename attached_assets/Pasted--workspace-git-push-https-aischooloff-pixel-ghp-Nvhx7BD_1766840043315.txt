@@ -1,0 +1,37 @@
+~/workspace$ git push https://aischooloff-pixel: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@github.com/aischooloff-pixel/grey-matter-hub.git main
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (24/24), 44.11 KiB | 14.70 MiB/s, done.
+Total 24 (delta 18), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (18/18), completed with 6 local objects.
+remote: error: GH013: Repository rule violations found for refs/heads/main.
+remote: 
+remote: - GITHUB PUSH PROTECTION
+remote:   —————————————————————————————————————————
+remote:     Resolve the following violations before pushing again
+remote: 
+remote:     - Push cannot contain secrets
+remote: 
+remote:     
+remote:      (?) Learn how to resolve a blocked push
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push
+remote:     
+remote:      (?) This repository does not have Secret Scanning enabled, but is eligible. Enable Secret Scanning to view and manage detected secrets.
+remote:      Visit the repository settings page, https://github.com/aischooloff-pixel/grey-matter-hub/settings/security_analysis
+remote:     
+remote:     
+remote:       —— GitHub Personal Access Token ——————————————————————
+remote:        locations:
+remote:          - commit: 14b9eaefb3e7500bb2488e1b255be50d5e5d8361
+remote:            path: .replit:45
+remote:     
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+remote:        https://github.com/aischooloff-pixel/grey-matter-hub/security/secret-scanning/unblock-secret/37Qf4IZugSCq7AjiHfTeV0nxtpi
+remote:     
+remote: 
+remote: 
+To https://github.com/aischooloff-pixel/grey-matter-hub.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/aischooloff-pixel/grey-matter-hub.git'
